@@ -12,3 +12,7 @@ The format for showing your item in chat can also be configured via "item_chat.j
 ## Client or Server?
 
 Only Required Server-side, But works in Single-player including "Open to LAN".
+
+## Isn't There Similiar Mods?
+
+Well yes. I made this mostly as a convenience to myself and friends on our server but I decided to just share it. If you like it, awesome!
