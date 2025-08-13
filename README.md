@@ -7,6 +7,8 @@ Server-side mod allowing players to show their item in chat more cleanly, and wi
 
 Showing off your items is as simple as typing '[i]' in your Chat Bar, and It will pop up with a hoverable item.
 
+The format for showing your item in chat can also be configured via "item_chat.json" in your config folder! 
+
 ## Client or Server?
 
 Only Required Server-side, But works in Single-player including "Open to LAN".
