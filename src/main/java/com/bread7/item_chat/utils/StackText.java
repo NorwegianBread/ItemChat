@@ -52,17 +52,12 @@ public class StackText {
                     .append(Text.literal(String.valueOf(stack.getCount())).formatted(Formatting.AQUA));
         }
 
-        // Italics if custom name
-        if (stack.hasCustomName()) {
-            mutableText.formatted(Formatting.ITALIC);
-        }
-
         // Wrap in brackets
         MutableText mutableText2 = Texts.bracketed(mutableText);
 
         // Apply rarity color + hover
         if (!stack.isEmpty()) {
-            mutableText2.formatted(stack.getRarity().formatting)
+            mutableText2.formatted(stack.getRarity().getFormatting())
                     .styled(style -> style.withHoverEvent(new HoverEvent(
                             HoverEvent.Action.SHOW_ITEM,
                             new HoverEvent.ItemStackContent(stack)
