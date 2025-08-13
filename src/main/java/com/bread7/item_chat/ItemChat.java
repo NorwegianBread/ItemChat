@@ -15,7 +15,7 @@ import java.nio.file.Path;
 public class ItemChat implements ModInitializer {
    public static final Logger LOGGER = LogManager.getLogger();
 
-	public static final Path configFilePath = FabricLoader.getInstance().getConfigDir().resolve("itemchat.json");
+	public static final Path configFilePath = FabricLoader.getInstance().getConfigDir().resolve("item_chat.json");
 
 	@Override
 	public void onInitialize() {

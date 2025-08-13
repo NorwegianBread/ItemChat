@@ -2,16 +2,16 @@
 	"schemaVersion": 1,
 	"id": "item_chat",
 	"version": "${version}",
-	"name": "ItemInChat",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Item Chat",
+	"description": "Server-side mod allowing players to show their item in chat more cleanly, and with \"x\" amounts.",
 	"authors": [
 		"7Bread"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/NorwegianBread",
+		"sources": "https://github.com/NorwegianBread/ItemChat"
 	},
-	"license": "CC0-1.0",
+	"license": "LGPL-3.0",
 	"icon": "assets/item_chat/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -26,8 +26,7 @@
 		"item_chat.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.17.2",
-		"minecraft": "~1.20.1",
+		"minecraft": "~1.20.4",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
