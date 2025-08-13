@@ -26,7 +26,7 @@
 		"item_chat.mixins.json"
 	],
 	"depends": {
-		"minecraft": "~1.21.1",
+		"minecraft": "~1.21.4",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
